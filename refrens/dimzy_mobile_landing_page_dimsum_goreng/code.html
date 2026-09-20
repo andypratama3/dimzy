@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"primary":"#704734","surface-tint":"#7f5440","surface-dim":"#ddd9d6","surface-bright":"#fdf9f5","on-error-container":"#93000a","on-primary-container":"#ffe5da","surface-container-high":"#ebe7e4","secondary-container":"#fdd8c8","outline":"#83746e","primary-container":"#8b5f4a","inverse-on-surface":"#f4f0ec","tertiary-container":"#a9500d","tertiary-fixed":"#ffdbc9","on-primary-fixed-variant":"#643d2a","surface-container-lowest":"#ffffff","on-secondary":"#ffffff","error-container":"#ffdad6","inverse-primary":"#f2baa1","tertiary":"#863b00","on-tertiary-container":"#ffe5d8","on-secondary-container":"#785d50","surface-container-highest":"#e5e2de","inverse-surface":"#31302e","secondary":"#73584c","on-secondary-fixed-variant":"#5a4136","on-background":"#1c1c19","surface-variant":"#e5e2de","surface-container":"#f1ede9","on-surface":"#1c1c19","on-tertiary-fixed":"#331200","on-primary-fixed":"#301305","primary-fixed-dim":"#f2baa1","tertiary-fixed-dim":"#ffb68d","primary-fixed":"#ffdbcc","on-primary":"#ffffff","on-tertiary-fixed-variant":"#763300","on-error":"#ffffff","error":"#ba1a1a","secondary-fixed":"#ffdbcc","outline-variant":"#d5c3bb","surface-container-low":"#f7f3ef","on-secondary-fixed":"#2a170e","on-surface-variant":"#51443f","on-tertiary":"#ffffff","background":"#fdf9f5","secondary-fixed-dim":"#e2bfb0","surface":"#fdf9f5"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-desktop":"5rem","gutter-desktop":"2.5rem","space-md":"1rem","space-xl":"3rem","space-2xl":"5rem","space-lg":"1.75rem","gutter":"1.5rem","space-xs":"0.25rem","margin":"1.5rem","space-sm":"0.5rem"},"fontFamily":{"label-md":["Plus Jakarta Sans"],"headline-lg":["Epilogue"],"body-sm":["Plus Jakarta Sans"],"headline-md":["Epilogue"],"body-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Epilogue"],"display-hero":["Epilogue"],"title-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Epilogue"],"body-lg":["Plus Jakarta Sans"],"headline-sm":["Epilogue"],"title-md":["Plus Jakarta Sans"],"label-caps":["Plus Jakarta Sans"]},"fontSize":{"label-md":["14px",{"lineHeight":"20px","fontWeight":"500"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"label-caps":["12px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"700"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Navigation Menu" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors focus:outline-none"><span class="material-symbols-outlined text-[24px]">menu</span></button><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-none tracking-tight">DIMZY</span><span class="font-label-caps text-label-caps text-tertiary-container tracking-widest text-[10px]">ARTISANAL CRISP</span></div></div><div class="flex items-center gap-space-sm"><span class="font-title-md text-title-md text-on-surface-variant hidden xs:inline-block pr-1">Menu</span><a aria-label="Cart" class="relative w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" data-path="cart-and-checkout" href="#"><span class="material-symbols-outlined text-[24px]">shopping_bag</span><span class="absolute top-2 right-2 w-4 h-4 rounded-full bg-tertiary text-on-tertiary font-label-caps text-[10px] flex items-center justify-center leading-none">2</span></a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1Uk7HttydZKdOkaFEJWqGnUNhfDMyc0tQrhbm8NA9DuDzy54mJzKM4jtqqMMIZBSoVIIZEO8btwhlaLLolHV-2FcFHaLh9NyTThZYNqhq_c2NpejwMR9NZCWgMOuRsnZcvJCWVuxker_zT6GQxC4iz_bp5ZvvHoSNxbOU5qrA66AcBHnHVXUhf4KCBQt_HV3GlD9P0Rg-e5Bw1B0Z2AdKInV3AzOUznWu-9brQRICNKq7agXUAlWoTUejF0fsowoR2ZU3llQoECUu4"/></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="relative px-space-md pt-space-sm pb-space-lg flex flex-col gap-space-md">
+<!-- Artisanal Badge -->
+<div class="inline-flex items-center gap-1.5 self-start px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-caps text-label-caps tracking-wider text-[11px] uppercase">Artisanal Fried Dimsum Freshly Crisped</span>
+</div>
+<!-- Catchy Indonesian Headline -->
+<div class="flex flex-col gap-1.5">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight font-bold">
+        Sensasi Renyah di Luar, <span class="text-tertiary underline decoration-tertiary-fixed-dim decoration-wavy underline-offset-4">Juicy &amp; Gurih</span> di Dalam
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Dimsum goreng artisan dibuat dadakan tiap pesanan masuk. Racikan renyah premium berpadu saus chili oil fermentasi 6 jam.
+      </p>
+</div>
+<!-- Hero Dish Showcase Card -->
+<div class="relative w-full rounded-2xl overflow-hidden bg-surface-container shadow-md">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Golden crisp fried wontons and steamed siomay served with artisanal chili oil and sweet sour dip on a rustic earthenware plate, dark warm wooden tabletop, soft warm ambient lighting, highly detailed gourmet food photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdzap4D0R5gX3Yi015UwQwU8NAizkvCCWf20eQJgWHG1k2-9erzQaQn-6jUEjHrDKLGlHjYJ6lvlUh7TNZ4i-9T-S7Lm43H7IX90QFBBxbcBvT0a_lUE5Omim1rVJ_6NdhaujfHsr7BbeY4od8f0pCaYuDpv3yqfhh6E9jp7jp78fd0F9K_u33znt30mVLFOB9dXnioNWnU5KAeDJ-j6huKUgf9kpCHVXlq8JX0UcnKXxjgd1v2AW0Mg"/>
+<!-- Subtle gradient scrim for tactile contrast -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-black/20 pointer-events-none"></div>
+<!-- Overlaid Status Pills -->
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface/90 backdrop-blur-md text-primary font-label-caps text-[11px] font-bold shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-tertiary" style="font-variation-settings: 'FILL' 1;">star</span>
+            4.9/5.0 (18.400+ ulasan)
+          </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary text-on-tertiary font-label-caps text-[11px] font-semibold shadow-sm">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+            Digoreng Dadakan
+          </span>
+</div>
+<!-- Floating audio/crunch badge -->
+<div class="absolute bottom-3 right-3 px-3 py-1.5 rounded-xl bg-surface-bright/95 backdrop-blur-md text-primary shadow-sm flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-tertiary animate-bounce">volume_up</span>
+<span class="font-label-caps text-[11px] font-bold tracking-tight">Tingkat Renyah 100dB</span>
+</div>
+</div>
+<!-- Quick Action CTAs -->
+<div class="p-4 flex flex-col gap-2.5 bg-surface-container-low">
+<button class="w-full py-3.5 px-6 rounded-xl bg-primary text-on-primary font-title-md text-title-md flex items-center justify-center gap-2 shadow-md active:scale-[0.98] transition-transform">
+<span class="material-symbols-outlined text-[20px]">delivery_dining</span>
+<span>Pesan Sekarang (Gratis Ongkir)</span>
+</button>
+<button class="w-full py-3 px-4 rounded-xl bg-surface-container-high text-primary font-label-md text-label-md flex items-center justify-center gap-1.5 active:bg-surface-variant transition-colors" onclick="document.getElementById('kalkulator-porsi').scrollIntoView({behavior: 'smooth'})">
+<span class="material-symbols-outlined text-[18px]">calculate</span>
+<span>Simulasi Porsi Makan</span>
+</button>
+</div>
+</div>
+<!-- Trust Metrics Pills -->
+<div class="flex items-center justify-between gap-1 overflow-x-auto py-1 scrollbar-none">
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant flex-shrink-0 text-[12px] font-medium">
+<span class="material-symbols-outlined text-[16px] text-primary">verified</span>
+<span>100% Halal Segar</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant flex-shrink-0 text-[12px] font-medium">
+<span class="material-symbols-outlined text-[16px] text-primary">timer</span>
+<span>15 Min Tiba Hangat</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant flex-shrink-0 text-[12px] font-medium">
+<span class="material-symbols-outlined text-[16px] text-primary">ramen_dining</span>
+<span>3 Saus Signature</span>
+</div>
+</div>
+</section>
+<!-- 2. TIGA FONDASI KENIKMATAN (Craftsmanship) -->
+<section class="px-space-md py-space-md flex flex-col gap-space-sm bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 text-tertiary">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-[11px]">Craftsmanship DIMZY</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">3 Fondasi Kenikmatan</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Setiap gigitan dirancang untuk menghadirkan ledakan tekstur dan rasa tak tertandingi.</p>
+</div>
+<!-- Swipeable tactile cards -->
+<div class="flex gap-3 overflow-x-auto pb-2 pt-1 -mx-space-md px-space-md scrollbar-none snap-x snap-mandatory">
+<!-- Card 01 -->
+<div class="w-[78vw] max-w-[300px] flex-shrink-0 snap-start bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-secondary-container font-extrabold leading-none">01</span>
+<span class="px-2 py-0.5 rounded-md bg-secondary-container text-on-secondary-container font-label-caps text-[10px]">0.8mm Presisi</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Kulit Tipis Ekstra Krispi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Adonan gandum impor ditarik presisi 0.8mm, digoreng dengan minyak kelapa murni suhu 180°C konsisten.</p>
+</div>
+<div class="flex items-center gap-1 text-tertiary font-label-caps text-[11px] font-bold mt-auto">
+<span class="material-symbols-outlined text-[16px]">graphic_eq</span>
+<span>Suara Kres Renyah 3 Detik</span>
+</div>
+</div>
+<!-- Card 02 -->
+<div class="w-[78vw] max-w-[300px] flex-shrink-0 snap-start bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-secondary-container font-extrabold leading-none">02</span>
+<span class="px-2 py-0.5 rounded-md bg-secondary-container text-on-secondary-container font-label-caps text-[10px]">90% Daging Asli</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Isian Daging Murni &amp; Padat</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kombinasi udang vaname utuh dan paha ayam segar tanpa pengawet. Gurih alami tanpa perisa buatan.</p>
+</div>
+<div class="flex items-center gap-1 text-tertiary font-label-caps text-[11px] font-bold mt-auto">
+<span class="material-symbols-outlined text-[16px]">water_drop</span>
+<span>Juicy Burst Tiap Gigitan</span>
+</div>
+</div>
+<!-- Card 03 -->
+<div class="w-[78vw] max-w-[300px] flex-shrink-0 snap-start bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-secondary-container font-extrabold leading-none">03</span>
+<span class="px-2 py-0.5 rounded-md bg-secondary-container text-on-secondary-container font-label-caps text-[10px]">Slow Steeped</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Chili Oil Fermentasi Khas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cabai kering pilihan diinfus rempah aromatik 6 jam api lambat. Pedas menggigit beraroma smoky gurih.</p>
+</div>
+<div class="flex items-center gap-1 text-tertiary font-label-caps text-[11px] font-bold mt-auto">
+<span class="material-symbols-outlined text-[16px]">soup_kitchen</span>
+<span>Resep Rahasia Sejak 2021</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. KREASI FAVORIT (Mobile Menu) -->
+<section class="px-space-md py-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-tertiary uppercase tracking-widest text-[11px]">Menu Rekomendasi</span>
+<span class="font-label-caps text-label-caps text-primary underline">Lihat Semua</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">Kreasi Dimsum Goreng Favorit</h2>
+</div>
+<!-- Interactive Category Filter Chips -->
+<div class="flex gap-2 overflow-x-auto pb-1 scrollbar-none" id="menu-filter-chips">
+<button class="category-chip px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-[13px] whitespace-nowrap shadow-sm" onclick="filterCategory('all', this)">
+        Semua
+      </button>
+<button class="category-chip px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[13px] whitespace-nowrap" onclick="filterCategory('wonton', this)">
+        Wonton &amp; Pangsit
+      </button>
+<button class="category-chip px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[13px] whitespace-nowrap" onclick="filterCategory('siomay', this)">
+        Siomay Emas
+      </button>
+<button class="category-chip px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-[13px] whitespace-nowrap" onclick="filterCategory('paket', this)">
+        Paket Rame
+      </button>
+</div>
+<!-- Product Card List -->
+<div class="flex flex-col gap-3.5" id="menu-items-container">
+<!-- Item 1 -->
+<div class="menu-item-card flex gap-3 p-3 rounded-2xl bg-surface-container-lowest shadow-sm items-center" data-category="wonton">
+<div class="relative w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Deep golden crisp fried wonton dumplings loaded with shrimp, served on a warm rustic small plate with dip on the side, high key warm editorial lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuFsJyQ3MgnU86MQ6e_hnMzszbDf3t6NBo_cdEkjgHxpqDnK1hvtNYUvQqYOXHqXYbaoC5th0EKJJiF6-irF8kf6pjP2DDZrnJnYTyQD1rCPkl5zZhEuwt9-kkadksTQjul3MmG7soNQKSVU-E9vwtrUeB_ZnHw9GpKMWyYk3kcb8najhGe-Dh4LBHnlwXSmG4sETRqxRJ4suEDJYdfxHaHcfECXw8EctdwHcxksW9K27hDWQrHHerxQ"/>
+<span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-tertiary text-on-tertiary text-[9px] font-bold">TOP 1</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center gap-1 mb-0.5">
+<span class="font-label-caps text-[10px] text-tertiary font-bold tracking-wider">CRUNCH 5/5</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">5 pcs / porsi</span>
+</div>
+<h3 class="font-title-md text-[15px] leading-snug text-primary font-bold truncate">Wonton Goreng Udang Renyah</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1 mb-2">Kulit super crunchy berisi potongan udang juicy utuh.</p>
+<div class="flex items-center justify-between mt-auto">
+<span class="font-headline-sm text-[16px] text-tertiary font-bold">Rp 24.000</span>
+<button aria-label="Tambah item" class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shadow active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="menu-item-card flex gap-3 p-3 rounded-2xl bg-surface-container-lowest shadow-sm items-center" data-category="siomay">
+<div class="relative w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Golden crisp deep fried siomay wrapped in tofu skin, garnished with scallions and chili bits, appetizing dimsum photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDog_222HMpmQjELh6XfJKd-Pxl2vh2bT9rACsCUeo_7GmBgEqsZTaGiZOCzwki-F1R0oHYWOl74xlLSpzhISbXU_mcGd-Ij1qqGHrl2WUXi5noZqknZYvEgMN3O10HEoG-p5ormiiadjbs7NOYQnE8Xws_Zin5WI2akZeHL1kj6QyyJj1XXYR22S6ofpD9vg_8TU9JH0UFyGUvovipjmvo1hKqcAQHAxp9dCPGHkAVv5_A4fqPMzXRyA"/>
+<span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-primary-container text-on-primary-container text-[9px] font-bold">FAVORIT</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center gap-1 mb-0.5">
+<span class="font-label-caps text-[10px] text-tertiary font-bold tracking-wider">CRUNCH 4.8/5</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">4 pcs / porsi</span>
+</div>
+<h3 class="font-title-md text-[15px] leading-snug text-primary font-bold truncate">Siomay Kulit Tahu Crispy</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1 mb-2">Dibalut kulit tahu sutra renyah keemasan gurih.</p>
+<div class="flex items-center justify-between mt-auto">
+<span class="font-headline-sm text-[16px] text-tertiary font-bold">Rp 26.000</span>
+<button aria-label="Tambah item" class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shadow active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="menu-item-card flex gap-3 p-3 rounded-2xl bg-surface-container-lowest shadow-sm items-center" data-category="wonton">
+<div class="relative w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Crispy spicy garlic wontons tossed in fragrant chili flakes and golden minced garlic, artisanal presentation on warm paper liner" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBU5fq8SD77H3v7l4x7VsQYbbfrc2aXA1il61gqBdlePQzfRyBpA5RU6bt1bC1g2od54Mj1Ya9ZyArMBW6DKWT1ay48G_gwLJh2-NldxVodMcrZLesXmH4hz7gw7wDTehps-uZCs818QsBjELDi09LA0EfDKcebcEyv-xx_HdDh3p_pbCJoKlPM8Dh3ParQ7ZqEIVQCDP5mt8wjPAzkDMN9AmhcHq_m6o_t90C4XIXntP4-_nOjHELe6g"/>
+<span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-tertiary text-on-tertiary text-[9px] font-bold">PEDAS</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center gap-1 mb-0.5">
+<span class="font-label-caps text-[10px] text-tertiary font-bold tracking-wider">CRUNCH 5/5</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">5 pcs / porsi</span>
+</div>
+<h3 class="font-title-md text-[15px] leading-snug text-primary font-bold truncate">Pangsit Pedas Garlic Crunch</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1 mb-2">Taburan bawang putih krispi dan bubuk cabai pedas harum.</p>
+<div class="flex items-center justify-between mt-auto">
+<span class="font-headline-sm text-[16px] text-tertiary font-bold">Rp 28.000</span>
+<button aria-label="Tambah item" class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shadow active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 4 (Paket Rame) -->
+<div class="menu-item-card flex gap-3 p-3.5 rounded-2xl bg-gradient-to-r from-secondary-container/40 to-surface-container-lowest shadow-sm items-center" data-category="paket">
+<div class="relative w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Abundant party platter of mixed fried dimsum, spring rolls, wontons, and siomay with bowls of dipping sauces, celebration food spread" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCg5HVbYvoLZ7IlrddPTqYfLqR0IVxmpB5bxyWGdsJRh378lntirowcvpWnfzcGQSYKtraL3xY4RzQYwB4exQrNwzRNDjq1yNLdu0T1n_bxClbXAhwwYqN9o8t84eznRrPd4nCYfVm5MWKLho_PdUP7fFAJ74XgZDJWuTbe58Vbnj0pYmwKY6bc6rmLBK5XhR0FR3weHOVg0x8NKsWQyfDy_Xz1QE9miryjUcYMrzHNwQe9VuRUiXmTAQ"/>
+<span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-tertiary text-on-tertiary text-[9px] font-bold">HEMAT 25%</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center gap-1 mb-0.5">
+<span class="font-label-caps text-[10px] text-tertiary font-bold tracking-wider">PAKET PESTA</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">16 pcs dimsum</span>
+</div>
+<h3 class="font-title-md text-[15px] leading-snug text-primary font-bold truncate">DIMZY Party Feast Platter</h3>
+<p class="font-body-sm text-[12px] text-on-surface-variant line-clamp-1 mb-2">Komplit: Wonton, Siomay Tahu, Garlic Crunch + 3 Saus.</p>
+<div class="flex items-center justify-between mt-auto">
+<div class="flex flex-col">
+<span class="font-body-sm text-[11px] text-on-surface-variant line-through">Rp 105.000</span>
+<span class="font-headline-sm text-[17px] text-tertiary font-bold">Rp 79.000</span>
+</div>
+<button aria-label="Tambah item" class="w-8 h-8 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shadow active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. KALKULATOR PORSI MOBILE -->
+<section class="px-space-md py-space-lg bg-surface-container-low flex flex-col gap-space-md" id="kalkulator-porsi">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-tertiary font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[16px]">groups</span>
+<span>Porsi Pas Tanpa Bingung</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">Kalkulator Porsi DIMZY</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Berapa orang yang bakal ikutan nikmatin renyahnya hari ini?</p>
+</div>
+<!-- Segmented Control Button Row -->
+<div class="grid grid-cols-3 gap-1.5 p-1 rounded-xl bg-surface-container-high">
+<button class="porsi-btn py-2 px-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md text-center transition-all shadow-sm" onclick="selectPorsi(1, this)">
+        1 Orang
+      </button>
+<button class="porsi-btn py-2 px-2 rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md text-center transition-all" onclick="selectPorsi(2, this)">
+        2 Orang (Date)
+      </button>
+<button class="porsi-btn py-2 px-2 rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md text-center transition-all" onclick="selectPorsi(4, this)">
+        4-6 Orang
+      </button>
+</div>
+<!-- Dynamic Recommendation Card -->
+<div class="p-4 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-3" id="porsi-result-card">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-[11px] font-bold" id="porsi-tag">
+          Paket Kenyang Sendiri
+        </span>
+<span class="font-headline-sm text-[18px] text-tertiary font-bold" id="porsi-price">Rp 39.000</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-title-md text-title-md text-primary font-bold" id="porsi-title">Single Crunch Combo</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="porsi-desc">1 Porsi Wonton Udang (5 pcs) + 1 Siomay Crispy (2 pcs) + Es Teh Melati Dingin Segar.</p>
+</div>
+<!-- Quick order action -->
+<div class="pt-2 flex gap-2">
+<button class="flex-1 py-2.5 px-4 rounded-xl bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">shopping_cart</span>
+<span>Pilih Paket Ini</span>
+</button>
+<button class="py-2.5 px-3.5 rounded-xl bg-surface-container text-primary font-label-md text-label-md flex items-center justify-center gap-1 active:bg-surface-variant">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Tanya Admin</span>
+</button>
+</div>
+</div>
+</section>
+<!-- 5. TESTIMONI FOODIES -->
+<section class="px-space-md py-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-caps text-label-caps text-tertiary uppercase tracking-widest text-[11px]">Suara Pelanggan</span>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">Kata Pecinta Dimsum Renyah</h2>
+</div>
+<div class="flex gap-3 overflow-x-auto pb-2 -mx-space-md px-space-md scrollbar-none snap-x snap-mandatory">
+<!-- Testi 1 -->
+<div class="w-[82vw] max-w-[310px] flex-shrink-0 snap-start bg-surface-container p-4 rounded-2xl flex flex-col justify-between gap-3 shadow-sm">
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">"Tiba di rumah masih panas berasap dan KRES banget pas digigit! Chili oil nya juara, gurih smoky nggak bikin enek."</p>
+<div class="flex items-center gap-2.5 pt-2">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container font-label-caps flex items-center justify-center font-bold text-[12px]">
+            AN
+          </div>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-primary font-bold leading-tight">Ananda Novia</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Food Blogger Jakarta • GoFood Verified</span>
+</div>
+</div>
+</div>
+<!-- Testi 2 -->
+<div class="w-[82vw] max-w-[310px] flex-shrink-0 snap-start bg-surface-container p-4 rounded-2xl flex flex-col justify-between gap-3 shadow-sm">
+<div class="flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">"Isian udangnya beneran berasa potongan utuh, bukan cuma adonan tepung doang. Anak-anak langsung ludesin platter nya!"</p>
+<div class="flex items-center gap-2.5 pt-2">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container font-label-caps flex items-center justify-center font-bold text-[12px]">
+            DR
+          </div>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-primary font-bold leading-tight">Dimas Ramadhan</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">BSD City • GrabFood Priority</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. OUTLET & DAPUR TERDEKAT -->
+<section class="px-space-md py-space-lg bg-surface-container-low flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col gap-0.5">
+<span class="font-label-caps text-label-caps text-tertiary uppercase tracking-widest text-[11px]">Dapur Artisanal</span>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">Outlet Terdekat</h2>
+</div>
+<div class="flex items-center gap-1 text-primary text-[12px] font-semibold bg-surface px-2.5 py-1 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-emerald-600 animate-ping"></span>
+<span>4 Dapur Aktif</span>
+</div>
+</div>
+<!-- Outlet Accordion / List Cards -->
+<div class="flex flex-col gap-2.5">
+<!-- Outlet 1 -->
+<div class="p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">storefront</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-primary font-bold">DIMZY Senopati, Jaksel</span>
+<span class="font-body-sm text-[12px] text-on-surface-variant">1.4 km • Buka s/d 23:00 WIB</span>
+</div>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary font-label-md text-[12px] font-semibold active:opacity-90">
+          Pesan
+        </button>
+</div>
+<!-- Outlet 2 -->
+<div class="p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">storefront</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-primary font-bold">DIMZY BSD Green Office</span>
+<span class="font-body-sm text-[12px] text-on-surface-variant">3.8 km • Buka s/d 22:00 WIB</span>
+</div>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high text-primary font-label-md text-[12px] font-semibold">
+          Pesan
+        </button>
+</div>
+<!-- Outlet 3 -->
+<div class="p-3.5 rounded-2xl bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">storefront</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-primary font-bold">DIMZY Dago, Bandung</span>
+<span class="font-body-sm text-[12px] text-on-surface-variant">Buka s/d 23:30 WIB</span>
+</div>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high text-primary font-label-md text-[12px] font-semibold">
+          Pesan
+        </button>
+</div>
+</div>
+</section>
+<!-- 7. VOUCHER PROMO CALLOUT CARD -->
+<section class="px-space-md py-space-md">
+<div class="p-4 rounded-2xl bg-tertiary text-on-tertiary shadow-md flex flex-col gap-3 relative overflow-hidden">
+<!-- Decorative background icon -->
+<span class="material-symbols-outlined absolute -bottom-4 -right-4 text-[100px] text-white/10 pointer-events-none">
+        percent
+      </span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[22px] text-tertiary-fixed">confirmation_number</span>
+<span class="font-label-caps text-label-caps tracking-widest text-[11px] text-tertiary-fixed uppercase">Promo Pengguna Baru</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-headline-sm text-headline-sm text-on-tertiary font-bold leading-tight">Diskon 25% Pesanan Pertama</h3>
+<p class="font-body-sm text-body-sm text-on-tertiary-container">Nikmati garingnya DIMZY dengan voucher hemat khusus hari ini.</p>
+</div>
+<!-- Code & Copy Button -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-black/20 backdrop-blur-sm mt-1">
+<div class="flex flex-col pl-1">
+<span class="font-label-caps text-[10px] text-tertiary-fixed tracking-wider uppercase">Kode Promo</span>
+<span class="font-title-md text-title-md text-on-tertiary font-extrabold tracking-wider" id="voucher-code">DIMZYRENYAH</span>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-[12px] font-bold flex items-center gap-1 active:scale-95 transition-transform" id="copy-btn" onclick="copyPromoCode()">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span id="copy-text">Salin Kode</span>
+</button>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // 1. Dynamic Menu Filtering
+  function filterCategory(cat, btn) {
+    const chips = document.querySelectorAll('.category-chip');
+    chips.forEach(c => {
+      c.classList.remove('bg-primary', 'text-on-primary');
+      c.classList.add('bg-surface-container', 'text-on-surface-variant');
+    });
+    btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+    btn.classList.add('bg-primary', 'text-on-primary');
+
+    const cards = document.querySelectorAll('.menu-item-card');
+    cards.forEach(card => {
+      if (cat === 'all' || card.getAttribute('data-category') === cat) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // 2. Interactive Portion Calculator
+  const portionData = {
+    1: {
+      tag: "Paket Kenyang Sendiri",
+      price: "Rp 39.000",
+      title: "Single Crunch Combo",
+      desc: "1 Porsi Wonton Udang (5 pcs) + 1 Siomay Crispy (2 pcs) + Es Teh Melati Dingin Segar."
+    },
+    2: {
+      tag: "Paling Pas Berdua",
+      price: "Rp 68.000",
+      title: "Date Night Crunch",
+      desc: "1 Wonton Udang (5 pcs) + 1 Garlic Pangsit (5 pcs) + 2 Saus Signature + 2 Minuman."
+    },
+    4: {
+      tag: "Paket Pesta Rame-Rame",
+      price: "Rp 129.000",
+      title: "Family / Squad Feast",
+      desc: "Platter Komplit (20 pcs dimsum goreng aneka rasa) + 4 Minuman + Triple Chili Oil Jar."
+    }
+  };
+
+  function selectPorsi(size, btn) {
+    const buttons = document.querySelectorAll('.porsi-btn');
+    buttons.forEach(b => {
+      b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+      b.classList.add('text-on-surface-variant');
+    });
+    btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+    btn.classList.remove('text-on-surface-variant');
+
+    const data = portionData[size];
+    document.getElementById('porsi-tag').innerText = data.tag;
+    document.getElementById('porsi-price').innerText = data.price;
+    document.getElementById('porsi-title').innerText = data.title;
+    document.getElementById('porsi-desc').innerText = data.desc;
+  }
+
+  // 3. Copy Voucher Code micro-interaction
+  function copyPromoCode() {
+    const code = document.getElementById('voucher-code').innerText;
+    navigator.clipboard.writeText(code).then(() => {
+      const copyText = document.getElementById('copy-text');
+      const original = copyText.innerText;
+      copyText.innerText = "Tersalin!";
+      setTimeout(() => {
+        copyText.innerText = original;
+      }, 2000);
+    });
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(58,37,27,0.06)]" data-active-classes="text-tertiary font-bold"><div class="flex justify-around items-center h-20 px-space-sm"><a aria-current="page" class="flex flex-col items-center justify-center w-16 h-14 transition-colors gap-0.5 text-tertiary font-bold" data-path="menu" href="#"><span class="material-symbols-outlined text-[24px]">restaurant_menu</span><span class="font-label-md text-[11px]">Menu</span></a><a class="flex flex-col items-center justify-center w-16 h-14 text-on-surface-variant hover:text-on-surface transition-colors gap-0.5" data-path="crisp-craft" href="#"><span class="material-symbols-outlined text-[24px]">local_fire_department</span><span class="font-label-md text-[11px]">Craft</span></a><a class="flex flex-col items-center justify-center w-16 h-14 text-on-surface-variant hover:text-on-surface transition-colors gap-0.5" data-path="orders" href="#"><span class="material-symbols-outlined text-[24px]">receipt_long</span><span class="font-label-md text-[11px]">Orders</span></a><a class="flex flex-col items-center justify-center w-16 h-14 text-on-surface-variant hover:text-on-surface transition-colors gap-0.5" data-path="profile-and-club" href="#"><span class="material-symbols-outlined text-[24px]">person</span><span class="font-label-md text-[11px]">Club</span></a></div></nav></body></html>

@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fdf9f5;
+  --color-surface-dim: #ddd9d6;
+  --color-surface-bright: #fdf9f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f7f3ef;
+  --color-surface-container: #f1ede9;
+  --color-surface-container-high: #ebe7e4;
+  --color-surface-container-highest: #e5e2de;
+  --color-surface-variant: #e5e2de;
+  --color-on-surface: #1c1c19;
+  --color-on-surface-variant: #51443f;
+  --color-inverse-surface: #31302e;
+  --color-inverse-on-surface: #f4f0ec;
+  --color-outline: #83746e;
+  --color-outline-variant: #d5c3bb;
+  --color-surface-tint: #7f5440;
+  
+  --color-primary: #704734;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #8b5f4a;
+  --color-on-primary-container: #ffe5da;
+  --color-inverse-primary: #f2baa1;
+  --color-primary-fixed: #ffdbcc;
+  --color-primary-fixed-dim: #f2baa1;
+  --color-on-primary-fixed: #301305;
+  --color-on-primary-fixed-variant: #643d2a;
+
+  --color-secondary: #73584c;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fdd8c8;
+  --color-on-secondary-container: #785d50;
+  --color-secondary-fixed: #ffdbcc;
+  --color-secondary-fixed-dim: #e2bfb0;
+  --color-on-secondary-fixed: #2a170e;
+  --color-on-secondary-fixed-variant: #5a4136;
+
+  --color-tertiary: #863b00;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #a9500d;
+  --color-on-tertiary-container: #ffe5d8;
+  --color-tertiary-fixed: #ffdbc9;
+  --color-tertiary-fixed-dim: #ffb68d;
+  --color-on-tertiary-fixed: #331200;
+  --color-on-tertiary-fixed-variant: #763300;
+
+  --color-background: #fdf9f5;
+  --color-on-background: #1c1c19;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.75rem;
+  --spacing-space-xl: 3rem;
+  --spacing-space-2xl: 5rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-margin: 1.5rem;
+  --spacing-gutter-desktop: 2.5rem;
+  --spacing-margin-desktop: 5rem;
+
+  --font-epilogue: var(--font-epilogue), sans-serif;
+  --font-plus-jakarta: var(--font-plus-jakarta), sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    font-family: var(--font-plus-jakarta);
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede9;
+}
+::-webkit-scrollbar-thumb {
+  background: #8b5f4a;
+  border-radius: 9999px;
+}
+
+/* Font typography helper classes */
+.font-display-hero {
+  font-family: var(--font-epilogue);
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .font-display-hero {
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+  }
+}
+
+.font-headline-lg {
+  font-family: var(--font-epilogue);
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .font-headline-lg {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+  }
+}
+
+.font-headline-md {
+  font-family: var(--font-epilogue);
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+.font-headline-sm {
+  font-family: var(--font-epilogue);
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.font-title-lg {
+  font-family: var(--font-plus-jakarta);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.font-title-md {
+  font-family: var(--font-plus-jakarta);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.font-body-lg {
+  font-family: var(--font-plus-jakarta);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.font-body-md {
+  font-family: var(--font-plus-jakarta);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.font-body-sm {
+  font-family: var(--font-plus-jakarta);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.font-label-caps {
+  font-family: var(--font-plus-jakarta);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+}
+
+.font-label-md {
+  font-family: var(--font-plus-jakarta);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
