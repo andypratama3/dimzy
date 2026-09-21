@@ -5,7 +5,7 @@ import HeroSection from '@/components/HeroSection';
 import CraftsmanshipSection from '@/components/CraftsmanshipSection';
 import MenuShowcase from '@/components/MenuShowcase';
 import PortionCalculator from '@/components/PortionCalculator';
-import ReviewsSection from '@/components/ReviewsSection';
+import TastingGuideSection from '@/components/TastingGuideSection';
 import LocationsSection from '@/components/LocationsSection';
 import VoucherBanner from '@/components/VoucherBanner';
 import CartModal from '@/components/CartModal';
@@ -21,7 +21,7 @@ export default function Home() {
         <CraftsmanshipSection />
         <MenuShowcase />
         <PortionCalculator />
-        <ReviewsSection />
+        <TastingGuideSection />
         <LocationsSection />
         <VoucherBanner />
       </main>

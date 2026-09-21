@@ -9,20 +9,19 @@ export default function LocationsSection() {
       <div className="max-w-[1280px] mx-auto px-margin lg:px-margin-desktop">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
           <div>
-            <span className="font-label-caps text-label-caps text-tertiary uppercase font-bold">
+            <span className="font-label-caps text-label-caps text-tertiary uppercase font-bold tracking-widest">
               Kunjungi Kitchen Kami
             </span>
             <h2 className="font-headline-lg text-headline-lg text-on-surface mt-space-xs font-bold">
               Outlet & Dapur Penggorengan Segar
             </h2>
             <p className="font-body-md text-body-md text-on-surface-variant max-w-md mt-space-xs">
-              Nikmati langsung hangat dari wajan penggorengan kami atau pesan instan dari
-              outlet terdekat.
+              Nikmati langsung hangat dari wajan penggorengan kami atau pesan instan dari outlet terdekat.
             </p>
           </div>
           <div className="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md bg-surface px-space-md py-space-xs rounded-full border border-outline-variant/20 shadow-sm">
-            <span className="w-2.5 h-2.5 rounded-full bg-tertiary animate-pulse"></span>
-            <span>Semua Outlet Buka Hingga 23:00 WIB</span>
+            <span className="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+            <span>Semua Dapur Beroperasi Setiap Hari</span>
           </div>
         </div>
 
@@ -54,18 +53,18 @@ export default function LocationsSection() {
 
               <div className="mt-space-md pt-space-sm border-t border-outline-variant/20 flex flex-col gap-space-xs">
                 <a
-                  className="w-full text-center py-space-xs bg-surface-container rounded-lg font-label-md text-label-md text-on-surface hover:bg-surface-container-high transition-colors"
+                  className="w-full min-h-[44px] flex items-center justify-center text-center py-space-xs bg-surface-container rounded-lg font-label-md text-label-md text-on-surface hover:bg-surface-container-high transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container"
                   href={outlet.mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Lihat Google Maps
+                  Buka Google Maps
                 </a>
                 <a
-                  className="w-full text-center py-space-xs bg-primary-container text-on-primary rounded-lg font-label-md text-label-md hover:bg-primary transition-colors font-semibold"
+                  className="w-full min-h-[44px] flex items-center justify-center text-center py-space-xs bg-primary-container text-on-primary rounded-lg font-label-md text-label-md hover:bg-primary transition-colors font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container"
                   href="#katalog-menu"
                 >
-                  Pesan Antar Sekarang
+                  Pesan Dari Outlet Ini
                 </a>
               </div>
             </div>

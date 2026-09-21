@@ -46,14 +46,13 @@ export interface Outlet {
   mapsUrl: string;
 }
 
-export interface Review {
+export interface PairingRitual {
   id: string;
-  name: string;
-  role: string;
-  initials: string;
-  initialsBgClass: string;
-  quote: string;
-  rating: number;
+  step: string;
+  title: string;
+  pairing: string;
+  note: string;
+  icon: string;
 }
 
 export const MENU_ITEMS: MenuItem[] = [
@@ -65,11 +64,11 @@ export const MENU_ITEMS: MenuItem[] = [
     pcsText: '5 PCS / PORSI',
     description: 'Daging udang laut segar dengan balutan kulit wonton mekar keemasan. Super renyah dan gurih alami tanpa pengawet.',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAGNQ3DN4eNvYYigwYJnHVrM4iR1z2_VEc7szjdlFxzJinjVmTuyurx4nQnvFMaF39crb1TolkPrhVSS6VeTJyyfmCs0c7tM6z45wnm6oqfLwFmTRQEPuEG1GMIW41v4mTrfqQTlHtgd7Hy5rNiNCJ7pI9NdTCaPXuW553wkbvHbG3WOXCw8v5GE2cgbGX8EbZAQNImbfwzi8QbPxPWvLgjpcu4cV3JTQFu6Y0iCf9hXR4_BIwSJWHQyg',
-    tag: 'BEST SELLER 🔥',
+    tag: 'Varian Terfavorit',
     tagBgClass: 'bg-tertiary-container',
     tagTextClass: 'text-on-tertiary',
     crunchRating: '5/5',
-    includesSauce: 'Incl. Chili Oil',
+    includesSauce: 'Termasuk Signature Chili Oil',
   },
   {
     id: 'siomay-kulit-tahu',
@@ -79,11 +78,11 @@ export const MENU_ITEMS: MenuItem[] = [
     pcsText: '4 PCS / PORSI',
     description: 'Kombinasi kelembutan siomay ayam udang dengan balutan kulit kembang tahu sutra yang digoreng garing berserat.',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC4tV5fm2ikEqo0-ZqHk7lOYZk_3b9lYFwLbSO54ZOgA8I751y1BbGT1fY4XxUXfdFEO__o63nxqKNKPbvpYbIyn4DWnNH3jolj6bfzOKQ_yDqHPuoU7tom8mx8NE8ugBXob4B2DtGoGp0ALnxOLZ_soz9oeqjoLCW0KoDlht_EGk3pSMpWQLn6x44Guy71Xx4mO0cttufsbjatovu0lOYiTeaFkYhYTwVG-3Fe6HdNNi2Ts-17IB8mbA',
-    tag: 'FAVORIT CHEF',
+    tag: 'Rekomendasi Chef',
     tagBgClass: 'bg-secondary-container',
     tagTextClass: 'text-on-secondary-fixed',
     crunchRating: '4/5',
-    includesSauce: 'Saus Asam Manis',
+    includesSauce: 'Termasuk Saus Asam Manis',
   },
   {
     id: 'pangsit-pedas-garlic',
@@ -93,11 +92,11 @@ export const MENU_ITEMS: MenuItem[] = [
     pcsText: '5 PCS / PORSI',
     description: 'Pangsit goreng renyah yang langsung dibalur bumbu chili flakes, minyak bawang putih goreng, dan taburan daun ketumbar.',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCoNGfDvPFKUGgwIVRDbPxWasuKB0SzvtC6xsWQQUksqZGEBo5dyNJ_mv_9WojyfnDC77pCttw1VGq1pPshx2pNLFuS56Bq0xUhJf1oF4PebiJXPXRcw1lRKugoT8queyoUypsDsBdWoSX9jEBGAQI7DiSGvflSihFb1zrh6BbrfR6rsLtaTZ43MmFHjDmSDhrNMhBzmnempNHb6pElluJcD94ywu77_FRoNDjCU9ZiR-bzLJNbr7ETkQ',
-    tag: 'PEDAS NAMPOL 🌶️🌶️',
+    tag: 'Tingkat Pedas Ekstra',
     tagBgClass: 'bg-tertiary',
     tagTextClass: 'text-on-tertiary',
     crunchRating: '5/5',
-    includesSauce: 'Level Pedas Ekstra',
+    includesSauce: 'Termasuk Chili Flakes Spesial',
   },
   {
     id: 'money-bag-golden',
@@ -107,11 +106,11 @@ export const MENU_ITEMS: MenuItem[] = [
     pcsText: '4 PCS / PORSI',
     description: 'Pangsit berbentuk kantung uang emas berisi cincangan udang raja, potongan rebung manis, dan bumbu minyak wijen harum.',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAB8aJFJLi13WAMH4O-JbpfIzr3v7RLCJ8SP3j8d9O4NmCpZDFBzMmxETS9R4V8rUJ0D0zBdjfA4MVBZq7KbXmNpwgUghq0IJPBTLAOW4o1RGNLAVALuSUYMZ-m-FQ3PN6d5V7SYxSETWhqVdAPK5uyEr1DZF_jSNmoBcPK4nYyFzHAJU9EdBbcpXPnRw3UiElOlNp15t6iHIUROM5r0xd3-TI5hYddBoJhdwwHJ0UluNEd_4rrTdBfMQ',
-    tag: 'KASTA TINGGI',
+    tag: 'Koleksi Eksklusif',
     tagBgClass: 'bg-secondary-fixed',
     tagTextClass: 'text-on-secondary-fixed',
     crunchRating: '4.5/5',
-    includesSauce: 'Chili Dip & Mayo',
+    includesSauce: 'Termasuk Chili Dip & Mayo',
   },
   {
     id: 'combo-party-feast',
@@ -121,7 +120,7 @@ export const MENU_ITEMS: MenuItem[] = [
     pcsText: 'PAKET JUMBO 16 PCS',
     description: 'Pilihan lengkap isi: 4 Wonton Udang, 4 Siomay Kulit Tahu, 4 Money Bag Golden, dan 4 Pangsit Pedas Garlic + 3 Wadah Saus Lengkap (Signature Chili Oil, Thai Sweet Chili, & Garlic Mayo).',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC-HSffw179ml5zL_QsQjGHH-nekYPIzVHN5Pt-nvyz93dfv2PvycOndRuyJQmM_TVKyE4TShF9sfzaxfp2KC81CExQonH8KTrbxtcVvckMkH8bG1hCUsUr2ICwC4F7ZqVKmZE3Guh0qiG-xiFYyfOAfys_FAraE_ZVfITLW7CE_uqOn4QrQS55eFpxtGgp7gmV41iHyBCrPMZRiHErXT-AUNZrtKLxOwcknB1gKkalMEvyjxP35mFK7Q',
-    tag: 'HEMAT 25% • MAKAN BARENG',
+    tag: 'Paket Kombo 16 Pcs',
     tagBgClass: 'bg-tertiary',
     tagTextClass: 'text-on-tertiary',
     crunchRating: '5/5',
@@ -196,6 +195,33 @@ export const PORTION_TIERS: Record<number, PortionTier> = {
   },
 };
 
+export const PAIRING_RITUALS: PairingRitual[] = [
+  {
+    id: 'ritual-1',
+    step: 'Langkah 1',
+    title: 'Gigitan Pertama Tanpa Saus',
+    pairing: 'Merasakan Bunyi Kriuk Otentik',
+    note: 'Cicipi ujung kulit wonton berketebalan 0.8mm saat masih mengepul untuk mendengar letupan renyah dan menikmati rasa manis alami udang laut segar.',
+    icon: 'restaurant',
+  },
+  {
+    id: 'ritual-2',
+    step: 'Langkah 2',
+    title: 'Cocolan Signature Chili Oil',
+    pairing: 'Kombinasi Minyak Bawang & Rempah',
+    note: 'Aduk minyak cabai dari dasar cup agar serpihan bawang putih garing dan rempah terangkat sempurna, lalu celupkan separuh bagian dimsum.',
+    icon: 'soup_kitchen',
+  },
+  {
+    id: 'ritual-3',
+    step: 'Langkah 3',
+    title: 'Tips Menghangatkan Ulang',
+    pairing: 'Air Fryer 180°C Selama 3 Menit',
+    note: 'Jika disimpan atau tidak langsung disantap, gunakan air fryer selama 3 menit tanpa minyak tambahan. Tekstur krispi mekar seketika seperti baru diangkat.',
+    icon: 'local_fire_department',
+  },
+];
+
 export const OUTLETS: Outlet[] = [
   {
     id: 'senopati',
@@ -232,35 +258,5 @@ export const OUTLETS: Outlet[] = [
     hours: '10:00 - 23:00 WIB',
     isOpened: true,
     mapsUrl: 'https://maps.google.com/?q=DIMZY+Surabaya',
-  },
-];
-
-export const REVIEWS: Review[] = [
-  {
-    id: 'rev-1',
-    name: 'Amanda Siregar',
-    role: 'Food Blogger Jakarta • Verified Buyer',
-    initials: 'AS',
-    initialsBgClass: 'bg-primary-fixed text-on-primary-fixed',
-    quote: '"Wonton gorengnya beneran gila kriuknya! Udangnya utuh manis, dan saus chili oil-nya wangi banget bawang putih gorengnya. Udah pesan 4 kali minggu ini buat teman ngantor."',
-    rating: 5,
-  },
-  {
-    id: 'rev-2',
-    name: 'Reza Pratama',
-    role: 'Pecinta Kuliner BSD • Verified Buyer',
-    initials: 'RP',
-    initialsBgClass: 'bg-secondary-fixed text-on-secondary-fixed',
-    quote: '"Biasanya dimsum goreng di tempat lain kalau udah dingin kulitnya jadi keras liat. Di DIMZY ini tetep renyah berongga walau diantar abang ojol 25 menit. Super recommended!"',
-    rating: 5,
-  },
-  {
-    id: 'rev-3',
-    name: 'Devina Lovina',
-    role: 'Dine-in Guest Senopati • Verified Buyer',
-    initials: 'DL',
-    initialsBgClass: 'bg-tertiary-fixed text-on-tertiary-fixed',
-    quote: '"Pangsit pedas garlic crunch-nya juara dunia. Dagingnya padat kerasa udang ayamnya, bukan cuma tepung kanji. Money bag-nya juga cantik banget buat hampers camilan."',
-    rating: 5,
   },
 ];

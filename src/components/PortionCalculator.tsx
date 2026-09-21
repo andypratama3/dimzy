@@ -19,18 +19,16 @@ export default function PortionCalculator() {
     <section className="w-full bg-surface-container py-space-2xl" id="kalkulator-paket">
       <div className="max-w-[1280px] mx-auto px-margin lg:px-margin-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
-          {/* Left Explanatory Text */}
           <div className="lg:col-span-5 flex flex-col">
-            <span className="font-label-caps text-label-caps text-tertiary uppercase font-bold">
-              Porsi Pas, Nggak Kurang Nggak Lebih
+            <span className="font-label-caps text-label-caps text-tertiary uppercase font-bold tracking-widest">
+              Porsi Pas Sesuai Kebutuhan
             </span>
             <h2 className="font-headline-lg text-headline-lg text-on-surface mt-space-xs font-bold">
               Kalkulator Porsi Dimsum DIMZY
             </h2>
             <p className="font-body-md text-body-md text-on-surface-variant mt-space-xs mb-space-lg">
               Mau makan sendiri untuk camilan sore, nongkrong santai berdua, atau makan
-              bareng seisi kantor? Geser pilihan untuk rekomendasi porsi dan budget
-              terbaik.
+              bareng seisi kantor? Pilih rekomendasi porsi dan budget terbaik.
             </p>
 
             <div className="flex flex-col gap-space-sm">
@@ -55,57 +53,58 @@ export default function PortionCalculator() {
                   3
                 </div>
                 <span className="font-body-md text-body-md text-on-surface font-semibold">
-                  Kirim pesanan instan via WhatsApp atau Delivery Partner
+                  Kirim pesanan instan via WhatsApp atau masukkan ke keranjang
                 </span>
               </div>
             </div>
           </div>
 
-          {/* Calculator Interactive Card */}
-          <div className="lg:col-span-7 bg-surface p-space-lg lg:p-space-xl rounded-3xl shadow-xl flex flex-col gap-space-md border border-outline-variant/30">
-            {/* Portion Segment Buttons */}
+          <div className="lg:col-span-7 bg-surface p-space-lg lg:p-space-xl rounded-3xl shadow-md flex flex-col gap-space-md border border-outline-variant/30">
             <div>
-              <label className="font-label-caps text-label-caps text-on-surface-variant mb-space-xs block font-bold">
-                PILIH MOMEN MAKAN KAMU
+              <label className="font-label-caps text-label-caps text-on-surface-variant mb-space-xs block font-bold tracking-wider">
+                PILIH MOMEN MAKAN
               </label>
               <div className="grid grid-cols-3 gap-space-xs bg-surface-container-low p-space-xs rounded-xl border border-outline-variant/20">
                 <button
-                  className={`py-space-sm rounded-lg font-title-md text-title-md transition-all text-center ${
+                  className={`min-h-[48px] py-space-xs rounded-lg font-title-md text-title-md transition-colors text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container ${
                     selectedTierId === 1
                       ? 'bg-surface text-on-surface shadow-sm font-bold'
                       : 'text-on-surface-variant hover:text-on-surface'
                   }`}
                   onClick={() => setSelectedTierId(1)}
+                  aria-pressed={selectedTierId === 1}
                 >
-                  Makan Sendiri{' '}
+                  Makan Sendiri
                   <span className="block text-body-sm text-on-surface-variant font-normal">
                     1 Orang
                   </span>
                 </button>
 
                 <button
-                  className={`py-space-sm rounded-lg font-title-md text-title-md transition-all text-center ${
+                  className={`min-h-[48px] py-space-xs rounded-lg font-title-md text-title-md transition-colors text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container ${
                     selectedTierId === 2
                       ? 'bg-surface text-on-surface shadow-sm font-bold'
                       : 'text-on-surface-variant hover:text-on-surface'
                   }`}
                   onClick={() => setSelectedTierId(2)}
+                  aria-pressed={selectedTierId === 2}
                 >
-                  Dua Orang{' '}
+                  Dua Orang
                   <span className="block text-body-sm text-on-surface-variant font-normal">
-                    Date / Bestie
+                    Bestie / Date
                   </span>
                 </button>
 
                 <button
-                  className={`py-space-sm rounded-lg font-title-md text-title-md transition-all text-center ${
+                  className={`min-h-[48px] py-space-xs rounded-lg font-title-md text-title-md transition-colors text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container ${
                     selectedTierId === 3
                       ? 'bg-surface text-on-surface shadow-sm font-bold'
                       : 'text-on-surface-variant hover:text-on-surface'
                   }`}
                   onClick={() => setSelectedTierId(3)}
+                  aria-pressed={selectedTierId === 3}
                 >
-                  Rame-Rame{' '}
+                  Rame-Rame
                   <span className="block text-body-sm text-on-surface-variant font-normal">
                     4-6 Orang
                   </span>
@@ -113,7 +112,6 @@ export default function PortionCalculator() {
               </div>
             </div>
 
-            {/* Dynamic Result Preview Box */}
             <div className="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm border border-outline-variant/20">
               <div className="flex items-center justify-between pb-space-xs border-b border-outline-variant/20">
                 <span className="font-title-md text-title-md text-on-surface font-bold">
@@ -167,10 +165,9 @@ export default function PortionCalculator() {
               </p>
             </div>
 
-            {/* Action CTAs */}
             <div className="flex flex-col sm:flex-row items-center gap-space-md pt-space-xs">
               <a
-                className="w-full sm:flex-1 inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md rounded-xl bg-inverse-surface text-inverse-on-surface font-title-md text-title-md hover:bg-on-surface transition-all shadow-md"
+                className="w-full sm:flex-1 min-h-[48px] inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-xl bg-inverse-surface text-inverse-on-surface font-title-md text-title-md hover:bg-on-surface transition-colors shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container font-semibold"
                 href={waUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -178,11 +175,11 @@ export default function PortionCalculator() {
                 <span className="material-symbols-outlined text-[20px] text-tertiary-fixed">
                   send_to_mobile
                 </span>
-                <span>Pesan Paket Ini via WhatsApp</span>
+                <span>Pesan via WhatsApp</span>
               </a>
 
               <button
-                className="w-full sm:w-auto px-space-lg py-space-md rounded-xl bg-primary-container text-on-primary font-title-md text-title-md hover:bg-primary transition-all shadow-md active:scale-95"
+                className="w-full sm:w-auto min-h-[48px] px-space-lg py-space-sm rounded-xl bg-primary-container text-on-primary font-title-md text-title-md hover:bg-primary transition-colors shadow-sm font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container active:scale-95"
                 onClick={() => addToCart(currentTier.title, currentTier.price)}
               >
                 + Masukkan Keranjang
