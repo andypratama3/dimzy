@@ -11,10 +11,10 @@ export default function TastingGuideSection() {
           Ritual Menikmati Dimsum
         </span>
         <h2 className="font-headline-lg text-headline-lg text-on-surface mt-space-xs max-w-xl font-bold">
-          Panduan Cocol & Menjaga Kerenyahan
+          Panduan Cocol & Kerenyahan Awet 4-6 Jam
         </h2>
         <p className="font-body-md text-body-md text-on-surface-variant max-w-lg mt-space-xs">
-          Nikmati setiap butir dimsum goreng DIMZY sesuai panduan racikan chef untuk mendapatkan paduan rasa dan letupan kriuk paling maksimal.
+          Nikmati sensasi keju lumer hangat berpadu lapisan double kulit krispi dan cocolan saos sambal handmade segar rebusan air bertahap.
         </p>
       </div>
 

@@ -9,15 +9,13 @@ export default function CraftsmanshipSection() {
       <div className="max-w-[1280px] mx-auto px-margin lg:px-margin-desktop">
         <div className="flex flex-col items-center text-center mb-space-xl">
           <span className="font-label-caps text-label-caps text-tertiary font-bold tracking-widest uppercase">
-            The DIMZY Craft
+            Rahasia Kerenyahan DIMZY
           </span>
           <h2 className="font-headline-lg text-headline-lg text-on-surface mt-space-xs max-w-xl font-bold">
-            Tiga Fondasi Kenikmatan Dimsum Goreng Sempurna
+            Teknik Double Kulit Krispi & Suhu Presisi
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-lg mt-space-xs">
-            Setiap butir dimsum melalui 4 tahap kurasi: pemilihan daging segar,
-            pencampuran minyak wijen murni, pembungkusan kulit tipis artisanal, dan
-            penggorengan suhu presisi 175°C.
+            Dimsum digoreng pada suhu ideal 170-180°C agar kulit renyah tidak menyerap banyak minyak dan tidak cepat gosong, menghasilkan krispi yang bertahan 4-6 jam serta lelehan keju lumer yang nikmat.
           </p>
         </div>
 
@@ -46,21 +44,7 @@ export default function CraftsmanshipSection() {
                   {pillar.badgeLabel}
                 </span>
                 <div className="flex items-center gap-1 text-tertiary-container font-title-md text-title-md font-bold">
-                  {pillar.num === '01' ? (
-                    <div className="flex gap-1 text-tertiary-container">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <span
-                          key={star}
-                          className="material-symbols-outlined text-[18px]"
-                          style={{ fontVariationSettings: "'FILL' 1" }}
-                        >
-                          local_fire_department
-                        </span>
-                      ))}
-                    </div>
-                  ) : (
-                    <span>{pillar.badgeValue}</span>
-                  )}
+                  <span>{pillar.badgeValue}</span>
                 </div>
               </div>
             </div>

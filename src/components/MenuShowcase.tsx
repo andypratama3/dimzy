@@ -24,10 +24,10 @@ export default function MenuShowcase() {
             Pilihan Menu Unggulan
           </span>
           <h2 className="font-headline-lg text-headline-lg text-on-surface mt-space-xs font-bold">
-            Kreasi Dimsum Goreng Krispi DIMZY
+            Dimsum Double Kulit & Keju Lumer
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-lg mt-space-xs">
-            Pilih varian favoritmu atau pesan kombo spesial untuk dinikmati bersama.
+            Renyah krispi bertahan 4-6 jam dan disajikan lengkap bersama cocolan saos sambal handmade segar.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function MenuShowcase() {
           }`}
           onClick={() => setActiveCategory('wonton')}
         >
-          Wonton & Pangsit
+          Double Kulit & Wonton
         </button>
         <button
           className={`min-h-[44px] px-space-lg py-2 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container ${
@@ -81,7 +81,7 @@ export default function MenuShowcase() {
           }`}
           onClick={() => setActiveCategory('siomay')}
         >
-          Siomay Krispi Emas
+          Siomay Melt
         </button>
         <button
           className={`min-h-[44px] px-space-lg py-2 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container ${
@@ -91,7 +91,7 @@ export default function MenuShowcase() {
           }`}
           onClick={() => setActiveCategory('spicy')}
         >
-          Seri Spicy Lava
+          Seri Pedas Garlic
         </button>
         <button
           className={`min-h-[44px] px-space-lg py-2 rounded-full font-label-md text-label-md whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-container ${
@@ -101,7 +101,7 @@ export default function MenuShowcase() {
           }`}
           onClick={() => setActiveCategory('combo')}
         >
-          Paket Kombo Pilihan
+          Paket Kombo Feast
         </button>
       </div>
 

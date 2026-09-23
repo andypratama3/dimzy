@@ -30,7 +30,7 @@ export default function Header() {
               DIMZY
             </span>
             <span className="font-label-caps text-label-caps uppercase text-tertiary-container tracking-widest pl-space-xs border-l border-outline-variant">
-              Dimsum Goreng
+              Double Kulit Krispi
             </span>
           </a>
         </div>

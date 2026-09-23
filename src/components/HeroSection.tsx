@@ -8,25 +8,19 @@ export default function HeroSection() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-gutter-desktop items-center">
         <div className="lg:col-span-6 flex flex-col items-start gap-space-md">
           <div className="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-secondary-container text-on-secondary-fixed text-label-caps font-label-caps">
-            <span>ARTISANAL FRIED DIMSUM FRESHLY CRISPED</span>
+            <span>DOUBLE KULIT KRISPI DENGAN KEJU LUMER</span>
           </div>
 
           <h1 className="font-display-hero text-display-hero text-on-surface tracking-tight leading-tight font-bold">
-            Sensasi Renyah di Luar,{' '}
+            Dimsum Goreng Double Kulit,{' '}
             <span className="text-tertiary-container italic underline decoration-tertiary-fixed-dim/50 decoration-wavy">
-              Juicy & Gurih
+              Krispi & Keju Lumer
             </span>{' '}
             di Dalam
           </h1>
 
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
-            Racikan warisan autentik dengan 100% daging ayam & udang laut cincang
-            murni, dibalut kulit tipis keemasan renyah maksimal, disajikan panas
-            bersama racikan khas{' '}
-            <strong className="text-on-surface font-title-md">
-              Signature Chili Oil DIMZY
-            </strong>
-            .
+            Dibalut teknik double kulit krispi yang digoreng pada suhu ideal 170-180°C agar renyah tanpa minyak berlebih dan tahan garing 4-6 jam. Dilengkapi isian keju lumer hangat serta cocolan saos sambal handmade segar.
           </p>
 
           <div className="flex flex-wrap items-center gap-space-md pt-space-xs w-full sm:w-auto">
@@ -52,39 +46,39 @@ export default function HeroSection() {
           </div>
 
           <div className="grid grid-cols-3 gap-space-md w-full pt-space-md mt-space-sm bg-surface-container-low p-space-md rounded-xl border border-outline-variant/20">
-            <div className="flex flex-col">
+            <div className="flex flex-col items-center text-center">
               <div className="flex items-center gap-space-xs text-tertiary-container font-headline-sm text-headline-sm font-bold">
                 <span className="material-symbols-outlined text-[22px]">
-                  verified
+                  timer
                 </span>
-                <span>100%</span>
+                <span>4-6 Jam</span>
               </div>
               <span className="font-body-sm text-body-sm text-on-surface-variant">
-                Halal & Daging Murni
+                Krispi Tahan Lama
               </span>
             </div>
 
-            <div className="flex flex-col">
-              <div className="flex items-center gap-space-xs text-tertiary-container font-headline-sm text-headline-sm font-bold">
-                <span className="material-symbols-outlined text-[22px]">
-                  soup_kitchen
-                </span>
-                <span>6 Jam</span>
-              </div>
-              <span className="font-body-sm text-body-sm text-on-surface-variant">
-                Seduh Chili Oil Fermentasi
-              </span>
-            </div>
-
-            <div className="flex flex-col">
+            <div className="flex flex-col items-center text-center">
               <div className="flex items-center gap-space-xs text-tertiary-container font-headline-sm text-headline-sm font-bold">
                 <span className="material-symbols-outlined text-[22px]">
                   local_fire_department
                 </span>
-                <span>175°C</span>
+                <span>170-180°C</span>
               </div>
               <span className="font-body-sm text-body-sm text-on-surface-variant">
-                Suhu Goreng Presisi
+                Suhu Ideal Anti Gosong
+              </span>
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center gap-space-xs text-tertiary-container font-headline-sm text-headline-sm font-bold">
+                <span className="material-symbols-outlined text-[22px]">
+                  soup_kitchen
+                </span>
+                <span>Fresh</span>
+              </div>
+              <span className="font-body-sm text-body-sm text-on-surface-variant">
+                Saos Sambal Handmade
               </span>
             </div>
           </div>
@@ -93,7 +87,7 @@ export default function HeroSection() {
         <div className="lg:col-span-6 relative mt-space-lg lg:mt-0">
           <div className="relative rounded-3xl overflow-hidden bg-surface-container-lowest shadow-md p-space-sm border border-outline-variant/30">
             <img
-              alt="Piring saji penuh dimsum goreng keemasan DIMZY dengan saus chili oil panas dan mangkuk teh kayu"
+              alt="Piring saji penuh dimsum goreng double kulit keemasan DIMZY dengan lelehan keju lumer dan saos sambal handmade segar"
               className="w-full h-[440px] object-cover rounded-2xl"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-HSffw179ml5zL_QsQjGHH-nekYPIzVHN5Pt-nvyz93dfv2PvycOndRuyJQmM_TVKyE4TShF9sfzaxfp2KC81CExQonH8KTrbxtcVvckMkH8bG1hCUsUr2ICwC4F7ZqVKmZE3Guh0qiG-xiFYyfOAfys_FAraE_ZVfITLW7CE_uqOn4QrQS55eFpxtGgp7gmV41iHyBCrPMZRiHErXT-AUNZrtKLxOwcknB1gKkalMEvyjxP35mFK7Q"
             />
@@ -103,25 +97,25 @@ export default function HeroSection() {
                 workspace_premium
               </span>
               <span className="font-title-md text-title-md font-bold">
-                Autentik 2019
+                Double Kulit
               </span>
               <span className="font-body-sm text-body-sm text-on-surface-variant">
-                Kulit Tipis 0.8mm
+                Isi Keju Lumer
               </span>
             </div>
 
             <div className="absolute bottom-6 left-6 flex items-center gap-space-sm bg-surface/95 backdrop-blur-md px-space-md py-space-sm rounded-2xl shadow-md text-on-surface border border-outline-variant/30">
               <div className="w-10 h-10 rounded-xl bg-tertiary-container flex items-center justify-center text-on-tertiary">
                 <span className="material-symbols-outlined text-[22px]">
-                  local_fire_department
+                  timer
                 </span>
               </div>
               <div className="flex flex-col">
                 <span className="font-title-md text-title-md font-bold">
-                  Digoreng Dadakan
+                  Tahan Krispi 4-6 Jam
                 </span>
                 <span className="font-body-sm text-body-sm text-on-surface-variant">
-                  Garing maksimal saat pesanan tiba
+                  Tidak menyerap banyak minyak & tidak cepat gosong
                 </span>
               </div>
             </div>
@@ -130,7 +124,7 @@ export default function HeroSection() {
               <span className="material-symbols-outlined text-[16px] text-tertiary-fixed">
                 soup_kitchen
               </span>
-              <span>Signature Chili Oil</span>
+              <span>Saos Sambal Fresh</span>
             </div>
           </div>
         </div>

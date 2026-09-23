@@ -27,7 +27,7 @@ export default function VoucherBanner() {
               Dapatkan Diskon 25% Untuk Pesanan Pertama Anda
             </h2>
             <p className="font-body-lg text-body-lg text-surface-container-high max-w-xl leading-relaxed">
-              Gunakan kode kupon eksklusif saat pemesanan online atau sebutkan saat mampir ke outlet DIMZY terdekat.
+              Gunakan kode kupon saat pemesanan online untuk mencicipi kelezatan dimsum goreng double kulit keju lumer renyah tahan 4-6 jam.
             </p>
 
             <div className="flex flex-wrap items-center gap-space-sm mt-space-sm">
@@ -52,10 +52,10 @@ export default function VoucherBanner() {
               local_fire_department
             </span>
             <span className="font-headline-sm text-headline-sm text-surface font-bold">
-              Garansi Renyah
+              Garansi Krispi 4-6 Jam
             </span>
             <p className="font-body-sm text-body-sm text-surface-container-high mt-space-xs">
-              Jika pesanan tiba dalam kondisi melempem atau dingin, kami ganti baru tanpa biaya tambahan.
+              Digoreng pada suhu ideal 170-180°C agar tidak berminyak. Jika melempem saat tiba, kami ganti baru tanpa biaya tambahan.
             </p>
           </div>
         </div>

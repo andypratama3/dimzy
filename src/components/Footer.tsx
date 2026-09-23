@@ -20,7 +20,7 @@ export default function Footer() {
     setInfoModalContent({
       title: 'Syarat & Ketentuan Pemesanan',
       content:
-        'Semua pesanan dimsum goreng diproses langsung setelah pesanan terkonfirmasi untuk menjamin suhu dan kerenyahan optimal. Pengiriman dilakukan melalui kurir instan mitra atau pengambilan langsung di outlet. Jika terdapat ketidaksesuaian pesanan, hubungi layanan pelanggan kami dalam kurun waktu 1 jam setelah pesanan diterima.',
+        'Semua pesanan dimsum goreng double kulit diproses langsung pada suhu ideal 170-180°C setelah terkonfirmasi untuk menjamin kerenyahan yang tahan 4-6 jam. Pengiriman dilakukan melalui kurir instan mitra atau pengambilan langsung di outlet. Jika terdapat kendala pesanan, hubungi layanan pelanggan kami dalam kurun waktu 1 jam setelah pesanan diterima.',
     });
   };
 
@@ -42,12 +42,11 @@ export default function Footer() {
                 DIMZY
               </span>
               <span className="font-label-caps text-label-caps text-tertiary">
-                Artisanal
+                Double Kulit & Keju
               </span>
             </div>
             <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              Sensasi renyah keemasan dimsum goreng gourmet dengan racikan rempah
-              warisan dan saus cocol istimewa.
+              Dimsum goreng double kulit ekstra krispi isi keju lumer. Digoreng pada suhu ideal 170-180°C tahan renyah 4-6 jam bersama saos sambal handmade segar.
             </p>
             <div className="flex items-center gap-space-sm pt-space-xs">
               <a
@@ -107,7 +106,7 @@ export default function Footer() {
                 <span className="material-symbols-outlined text-[16px]">
                   schedule
                 </span>
-                <span>Goreng dadakan tiap pesanan masuk</span>
+                <span>Goreng dadakan suhu 170-180°C</span>
               </div>
             </div>
           </div>

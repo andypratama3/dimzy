@@ -27,8 +27,7 @@ export default function PortionCalculator() {
               Kalkulator Porsi Dimsum DIMZY
             </h2>
             <p className="font-body-md text-body-md text-on-surface-variant mt-space-xs mb-space-lg">
-              Mau makan sendiri untuk camilan sore, nongkrong santai berdua, atau makan
-              bareng seisi kantor? Pilih rekomendasi porsi dan budget terbaik.
+              Pilih porsi pas untuk makan sendiri, santai berdua, atau mabar rame-rame. Lengkap dengan dimsum double kulit keju lumer dan saos sambal handmade segar.
             </p>
 
             <div className="flex flex-col gap-space-sm">
@@ -45,7 +44,7 @@ export default function PortionCalculator() {
                   2
                 </div>
                 <span className="font-body-md text-body-md text-on-surface font-semibold">
-                  DIMZY meracik varian kombo & kuantiti saus ideal
+                  DIMZY siapkan dimsum keju lumer & porsi saos sambal pas
                 </span>
               </div>
               <div className="flex items-center gap-space-sm">
@@ -137,7 +136,7 @@ export default function PortionCalculator() {
                     {currentTier.sauce}
                   </span>
                   <span className="font-body-sm text-body-sm text-on-surface-variant">
-                    Saus Pilihan
+                    Saos Sambal Fresh
                   </span>
                 </div>
 
